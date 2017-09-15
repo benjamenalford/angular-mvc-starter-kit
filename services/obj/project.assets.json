@@ -12556,6 +12556,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.AspNetCore.All >= 2.0.0",
+      "Microsoft.AspNetCore.Cors >= 2.0.0",
       "Microsoft.DotNet.Watcher.Tools >= 2.0.0",
       "Microsoft.NETCore.App >= 2.0.0"
     ]
@@ -12609,6 +12610,10 @@
             "version": "2.0.0"
           },
           "Microsoft.DotNet.Watcher.Tools": {
+            "target": "Package",
+            "version": "2.0.0"
+          },
+          "Microsoft.AspNetCore.Cors": {
             "target": "Package",
             "version": "2.0.0"
           }
